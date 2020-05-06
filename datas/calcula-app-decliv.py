@@ -1,12 +1,14 @@
-# Exemplo de código para gerar app declividade > 45 graus
+# Exemplo de código para gerar app declividade > 45 graus:
 
-# 1 Verificar se extensão spatial analyst está disponível e habilitada. 
+# 1 Verificar se extensão spatial analyst está disponível e habilitada
 
-# 2 Importar Biblioteca Arcpy
+# 2 Importar biblioteca arcpy
 
-# 3 Definir variáveis "calculaAppDeclividade" , "decliv" e "app_decliv" 
+# 3 Definir função "calculaAppDeclividade" e variáveis "decliv" e "app_decliv" 
 
-# Obs.: O nome do arquivo raster usado para o MDE(Modelo Digital de Elevação) para rodar o Slope foi "MDE.tif"
+# 4 Definir arquivos de saída como "decliv" e "app"
+
+# O nome do arquivo raster usado para o MDE(Modelo Digital de Elevação) para rodar o Slope foi "MDE.tif"
 
 import arcpy
 
