@@ -16,7 +16,7 @@ c. Output Coordinate System/ Coordinate System.<br>
 <br><b>PRONTO!</b> Já pode rodar sua Toolbox e projetar todos os arquivos de uma vez, já com a área calculada.<br>
 * <b>Exemplo 3 - ADICIONAR OS CENTROIDES EM VÁRIOS ARQUIVOS DE UMA PASTA:</b> <br>
 <b>Descrição:</b>usar a função Calculate Field para adicionar as coordenadas x e y na tabela de atributos de todas as classes de feição de uma pasta selecionada.<br>
-<b>Passo 1:</b> Script:[centroidCalculateField.py](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/ProjectFolder.py)<br>
+<b>Passo 1:</b> Script:[centroidCalculateField.py](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/centroidCalculateField.py)<br>
 <b>Passo 2:</b> Criar Toolbox e adicionar o Script criado: [CalcularCentroides.tbx](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/CalcularCentroides.tbx)<br>
 Obs.: Configuração para as colunas Display Name / Data Type da Toolbox com o script que está sendo adicionado:<br>
 a. Input Folder/ Folder;<br>
