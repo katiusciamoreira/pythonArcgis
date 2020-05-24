@@ -6,7 +6,7 @@
 * <b>Exemplo 2 - SCRIPT TOOL PARA PROJETAR VÁRIOS ARQUIVOS DE UMA PASTA:</b> <br>
 <b>Descrição:</b>o objetivo do script é alterar o sistema de coordenadas de todos os arquivos Shapefiles que estiverem dentro de uma pasta indicada, sendo que se o Shapefile for do tipo polígono e o sistema de coordenada de saída do tipo projetado(ex: UTM), também será criado um campo no qual será calculado o valor das áreas dessas geometrias(neste exemplo calculo em hectares).<br>
 <b>Passo 1:</b> Script:[ProjectFolder.py](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/ProjectFolder.py)<br>
-<b>Passo 2:</b> Criar Toolbox e adicionar o Script criado: [ProjetarPasta.tbx](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/ProjetarPasta.tbx)<br>
+<b>Passo 2:</b> Criar Toolbox e adicionar o Script criado (você pode baixar a toolbox criada aqui): [ProjetarPasta.tbx](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/ProjetarPasta.tbx)<br>
 Obs.: Configuração para as colunas Display Name / Data Type da Toolbox com o script que está sendo adicionado:<br>
 a. Input Folder/ Folder;<br>
 b. Output Folder/ Folder;<br>
@@ -17,7 +17,7 @@ c. Output Coordinate System/ Coordinate System.<br>
 * <b>Exemplo 3 - ADICIONAR OS CENTROIDES EM VÁRIOS ARQUIVOS DE UMA PASTA:</b> <br>
 <b>Descrição:</b>usar a função Calculate Field para adicionar as coordenadas x e y na tabela de atributos de todas as classes de feição de uma pasta selecionada.<br>
 <b>Passo 1:</b> Script:[centroidCalculateField.py](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/centroidCalculateField.py)<br>
-<b>Passo 2:</b> Criar Toolbox e adicionar o Script criado: [CalcularCentroides.tbx](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/CalcularCentroides.tbx)<br>
+<b>Passo 2:</b> Criar Toolbox e adicionar o Script criado (você pode baixar a toolbox criada aqui): [CalcularCentroides.tbx](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/CalcularCentroides.tbx)<br>
 Obs.: Configuração para as colunas Display Name / Data Type da Toolbox com o script que está sendo adicionado:<br>
 a. Input Folder/ Folder;<br>
 
@@ -32,7 +32,7 @@ ________________________________________________________________________________
 * <b>Example 2 - SCRIPT TOOL TO DESIGN MULTIPLE FILES OF A FOLDER:</b> <br>
 <b>Description:</b>the purpose of the script is to change the coordinate system of all Shapefiles files that are within a specified folder, and if the Shapefile is a polygon type and the projected type output coordinate system (eg UTM), it will also be created a field where the value of the areas of these geometries will be calculated (for this example I calculated in hectares).<br>
 <b>Step 1:</b> Script:[ProjectFolder.py](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/ProjectFolder.py)<br>
-<b>Step 2:</b> To create Toolbox and add the Script: [ProjetarPasta.tbx](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/ProjetarPasta.tbx)<br>
+<b>Step 2:</b> To create Toolbox and add the Script (you can download the toolbox that was created here): [ProjetarPasta.tbx](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/ProjetarPasta.tbx)<br>
 Obs.: Configuration for the Display Name / Data Type columns in the Toolbox with the script being added:<br>
 a. Input Folder/ Folder;<br>
 b. Output Folder/ Folder;<br>
@@ -43,7 +43,7 @@ c. Output Coordinate System/ Coordinate System.<br>
 * <b>Example 3 - ADD CENTROIDS IN SEVERAL FILES OF A FOLDER:</b> <br>
 <b>Description:</b>to use the Calculate Field function to add x and y coordinates to the attribute table for all feature classes in a selected folder.<br>
 <b>Step 1:</b> Script:[centroidCalculateField.py](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/centroidCalculateField.py)<br>
-<b>Step 2:</b> To create Toolbox and add the Script: [CalcularCentroides.tbx](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/CalcularCentroides.tbx)<br>
+<b>Step 2:</b> To create Toolbox and add the Script (you can download the toolbox tha was created here): [CalcularCentroides.tbx](https://github.com/katiusciamoreira/pythonArcgis/blob/master/datas/CalcularCentroides.tbx)<br>
 Obs.: Configuration for the Display Name / Data Type columns in the Toolbox with the script being added:<br>
 a. Input Folder/ Folder;<br>
 
